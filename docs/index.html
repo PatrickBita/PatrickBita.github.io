@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Patrick Bita (Tricka) • Full-Stack Developer & CS Teacher | Malawi</title>
+  <meta name="description" content="Patrick Bita (Tricka) - Full-Stack Developer, Computer Science Teacher, HCI & Algorithms Expert | Malawi"/>
+  <link rel="stylesheet" href="output.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>Tricka</text></svg>">
+</head>
+<body class="bg-gray-950 text-gray-100 antialiased">
+
+  <!-- Top-Right Hamburger Menu (Navigation Only) -->
+  <div class="fixed top-6 right-6 z-50">
+    <button id="menu-btn" class="p-3 bg-black/40 backdrop-blur-xl rounded-full border border-white/20 hover:bg-white/10 transition shadow-xl">
+      <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+      </svg>
+    </button>
+
+    <div id="dropdown" class="hidden absolute right-0 mt-3 w-64 bg-black/70 backdrop-blur-2xl rounded-2xl border border-white/20 shadow-2xl">
+      <div class="py-6 px-6 space-y-5 text-center">
+        <a href="#tech" class="block hover:text-purple-400 transition font-medium text-lg">Tech Mastery</a>
+        <a href="#skills" class="block hover:text-purple-400 transition font-medium text-lg">Core Skills</a>
+        <a href="#why-hire" class="block hover:text-purple-400 transition font-medium text-lg">Why Hire Me</a>
+        <a href="#hire" class="block hover:text-purple-400 transition font-bold bg-purple-600/30 px-6 py-3 rounded-full text-lg">Send Message</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <header class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-br from-purple-900/50 via-pink-900/30 to-gray-950"></div>
+    <div class="relative z-10 text-center px-6 max-w-6xl mx-auto">
+      <img src="me.jpg" alt="Patrick Bita (Tricka)" class="w-48 h-48 rounded-full mx-auto mb-8 object-cover border-4 border-purple-500 shadow-2xl"/>
+      <h1 class="text-6xl md:text-8xl font-black tracking-tighter bg-clip-text text-transparent bg-gradient-to-r from-purple-400 via-pink-400 to-red-400">
+        Patrick Bita
+      </h1>
+      <p class="mt-4 text-2xl font-light text-gray-300">Tricka</p>
+      <p class="mt-6 text-xl md:text-2xl text-gray-300">
+        Full-Stack Developer • CS Teacher • HCI Expert
+      </p>
+      <p class="mt-3 text-lg text-gray-400">atrickabita5@gmail.com • +265 985 549 174</p>
+      <div class="mt-12">
+        <a href="https://wa.me/265985549174" class="px-8 py-4 border border-gray-600 hover:border-green-500 rounded-full font-medium transition hover:bg-green-500/20">
+          WhatsApp Me
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Technologies I Master (Kotlin included) -->
+  <section id="tech" class="py-20 px-6 max-w-7xl mx-auto">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">Technologies I Master</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-orange-500 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">HTML</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-blue-500 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">CSS</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-yellow-500 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">JavaScript</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-cyan-500 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">React</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-gray-400 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">Next.js</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-green-500 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">Node.js</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-red-500 transition group">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg" alt="Laravel" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">Laravel</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-purple-600 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">PHP</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-sky-500 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">Flutter</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-purple-400 transition group">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg" alt="Kotlin" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">Kotlin</span>
+      </div>
+      <div class="flex flex-col items-center p-6 bg-gray-900/50 rounded-2xl border border-gray-800 hover:border-teal-500 transition group">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" class="w-16 h-16 mb-3 group-hover:scale-110 transition"/>
+        <span class="font-medium">Tailwind CSS</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Skills & Expertise – “Backend Development” instead of Algorithms & DSA -->
+  <section id="skills" class="py-20 px-6 bg-gray-900/30">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">Core Skills & Expertise</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <!-- Backend Development (replaced Algorithms & DSA) -->
+        <div class="p-8 bg-gray-900/70 rounded-2xl border border-purple-600 text-center hover:scale-105 transition group">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Backend" class="w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition"/>
+          <h3 class="text-2xl font-bold text-purple-300">Backend Development</h3>
+          <p class="text-gray-400 mt-3">REST APIs, authentication, databases, scalability, security</p>
+        </div>
+        <!-- Web Development -->
+        <div class="p-8 bg-gray-900/70 rounded-2xl border border-purple-600 text-center hover:scale-105 transition group">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="Web" class="w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition"/>
+          <h3 class="text-2xl font-bold text-purple-300">Web Development</h3>
+          <p class="text-gray-400 mt-3">Responsive websites, PWAs, Next.js, React, SEO-friendly</p>
+        </div>
+
+        <!-- Mobile Development -->
+        <div class="p-8 bg-gray-900/70 rounded-2xl border border-purple-600 text-center hover:scale-105 transition group">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Mobile" class="w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition"/>
+          <h3 class="text-2xl font-bold text-purple-300">Mobile Development</h3>
+          <p class="text-gray-400 mt-3">Native Android (Kotlin), Cross-platform (Flutter), smooth UX</p>
+        </div>
+
+        <div class="p-8 bg-gray-900/70 rounded-2xl border border-purple-600 text-center hover:scale-105 transition group">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="HCI" class="w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition"/>
+          <h3 class="text-2xl font-bold text-purple-300">HCI / UX Design</h3>
+          <p class="text-gray-400 mt-3">User-centered design, accessibility, intuitive interfaces</p>
+        </div>
+        <div class="p-8 bg-gray-900/70 rounded-2xl border border-purple-600 text-center hover:scale-105 transition group">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Software Engineering" class="w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition"/>
+          <h3 class="text-2xl font-bold text-purple-300">Software Engineering</h3>
+          <p class="text-gray-400 mt-3">Clean architecture, testing, CI/CD, Git workflows</p>
+        </div>
+        <div class="p-8 bg-gray-900/70 rounded-2xl border border-purple-600 text-center hover:scale-105 transition group">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="Teamwork" class="w-20 h-20 mx-auto mb-4 group-hover:scale-110 transition"/>
+          <h3 class="text-2xl font-bold text-purple-300">Team Collaboration</h3>
+          <p class="text-gray-400 mt-3">Agile, communication, code reviews, leading teams</p>
+        </div>
+        <div class="p-8 bg-gray-900/70 rounded-2xl border border-purple-600 text-center hover:scale-105 transition group">
+          <svg class="w-20 h-20 mx-auto mb-4 text-purple-400 group-hover:scale-110 transition" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M12 14l9-5-9-5-9 5 9 5z"/>
+            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"/>
+          </svg>
+          <h3 class="text-2xl font-bold text-purple-300">CS Teacher & Mentor</h3>
+          <p class="text-gray-400 mt-3">Teaching programming, mentoring juniors, curriculum design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Hire Me, Send Message, Footer – unchanged -->
+  <section id="why-hire" class="py-20 px-6 bg-gray-900/30">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-4xl md:text-5xl font-bold text-center mb-16">What You Get When You Hire Me</h2>
+      <div class="grid md:grid-cols-3 gap-10 text-center">
+        <div class="p-10 bg-gray-900/70 rounded-2xl border border-gray-800 hover:border-purple-500 transition hover:scale-105 group">
+          <svg class="w-20 h-20 mx-auto mb-6 text-purple-400 group-hover:scale-110 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+          </svg>
+          <h3 class="text-2xl font-bold mb-4">Fully Responsive Design</h3>
+          <p class="text-gray-400">Perfect on phones, tablets & desktops</p>
+        </div>
+        <div class="p-10 bg-gray-900/70 rounded-2xl border border-gray-800 hover:border-purple-500 transition hover:scale-105 group">
+          <svg class="w-20 h-20 mx-auto mb-6 text-purple-400 group-hover:scale-110 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+          </svg>
+          <h3 class="text-2xl font-bold mb-4">Clean & Maintainable Code</h3>
+          <p class="text-gray-400">Well-structured, future-proof</p>
+        </div>
+        <div class="p-10 bg-gray-900/70 rounded-2xl border border-gray-800 hover:border-purple-500 transition hover:scale-105 group">
+          <svg class="w-20 h-20 mx-auto mb-6 text-purple-400 group-hover:scale-110 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+          </svg>
+          <h3 class="text-2xl font-bold mb-4">Thorough Testing</h3>
+          <p class="text-gray-400">Bug-free, fast, reliable delivery</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="hire" class="py-24 px-6 bg-gray-900/50">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-5xl font-bold text-center mb-4">Let's Build or Learn Together</h2>
+      <p class="text-center text-gray-400 mb-12">Web/App Development • Private CS Lessons • Mentoring • Freelance</p>
+      <form action="https://formspree.io/f/xjvneewj" method="POST" class="space-y-8">
+        <input type="text" name="name" placeholder="Your Name" required class="w-full px-6 py-4 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"/>
+        <input type="email" name="email" placeholder="Your Email" required class="w-full px-6 py-4 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"/>
+        <input type="tel" name="phone" placeholder="Phone / WhatsApp" class="w-full px-6 py-4 bg-gray-800 rounded-lg"/>
+        <textarea name="message" rows="6" placeholder="Project idea? Need CS lessons? Just say hi..." required class="w-full px-6 py-4 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+        <button type="submit" class="w-full py-5 bg-purple-600 hover:bg-purple-500 rounded-lg text-xl font-bold transition-all hover:scale-105">
+          Send Message – Let's Start!
+        </button>
+      </form>
+      <p class="text-center text-gray-500 mt-6 text-sm">Reply within 24hrs via email or WhatsApp</p>
+    </div>
+  </section>
+
+  <footer class="py-12 text-center border-t border-gray-800 bg-gray-950/50">
+    <p class="text-lg text-gray-400">
+      © 2025 Patrick Bita (Tricka) • Proudly from Malawi<br>
+      Built with <span class="text-purple-400">Tailwind v4</span>
+    </p>
+    <div class="mt-6 flex justify-center gap-8 text-2xl">
+      <a href="https://github.com/PatrickBita" class="hover:text-purple-400 transition">GitHub</a>
+      <a href="https://wa.me/265985549174" class="hover:text-green-400 transition">WhatsApp</a>
+    </div>
+  </footer>
+
+  <!-- Hamburger Menu Script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const dropdown = document.getElementById('dropdown');
+
+    menuBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      dropdown.classList.toggle('hidden');
+    });
+    document.addEventListener('click', () => dropdown.classList.add('hidden'));
+  </script>
+</body>
+</html>
